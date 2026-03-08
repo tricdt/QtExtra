@@ -1,0 +1,12 @@
+cmake_path(SET QT6EXTRA_EXAMPLES_ROOT "${QT6EXTRA_ROOT}/examples")
+message(STATUS "QT6EXTRA_EXAMPLES_ROOT=${QT6EXTRA_EXAMPLES_ROOT}")
+
+add_subdirectory(qtanimatedwizard)
+add_subdirectory(colorwidgets)
+add_subdirectory(codeeditor)
+add_subdirectory(configwidget)
+add_subdirectory(itemdelegatedemo)
+add_subdirectory(itemviewdemo)
+add_subdirectory(objectmapper)
+add_subdirectory(objectviewer)
+add_subdirectory(sqlutils)
